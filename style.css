@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: 400% 400%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	position: relative;
+	background: linear-gradient(-45deg, blue, palevioletred, limegreen, hotpink);
+	background-repeat: no-repeat;
+  
+}
+
+
+
+
+.container{
+	
+	border-radius: 15px;
+	width: 300px;
+	height: 400px;
+	padding: 8px;
+	margin-top: 80px;
+}
+
+
+.head {
+ padding: 8px;
+}
+
+
+.middle button{
+	border-radius: 5px;
+	padding: 4px;
+	width: 8em;
+	margin-left: 86px;
+}
+
+
+.middle button:hover{
+	background: linear-gradient(-45deg, lawngreen, mediumvioletred, slategray);
+}
+
+.middle input{
+	width: 9em;
+	border-radius: 10px;
+	border-color: white;
+	padding: 6px;
+}
